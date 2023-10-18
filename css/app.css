@@ -40,6 +40,10 @@ p {
 }
 
 .col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 30px;
   background-color: white;
   border: 2px solid black;
