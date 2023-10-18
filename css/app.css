@@ -39,8 +39,8 @@ p {
   padding: 30px;
 }
 
-.col-4 {
+.col {
   padding: 30px;
-  background-color: red;
+  background-color: white;
   border: 2px solid black;
 }

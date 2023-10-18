@@ -1,4 +1,4 @@
-console.log('Our Team')
+console.log('Our Team');
 
 const imagesSrc = [
   'img/wayne-barnett-founder-ceo.jpg',
@@ -8,6 +8,7 @@ const imagesSrc = [
   'img/scott-estrada-developer.jpg',
   'img/barbara-ramos-graphic-designer.jpg'
 ];
+
 const membri = [
   {
     nome: 'Wayne Barnet',
@@ -40,9 +41,14 @@ const membri = [
     foto: imagesSrc[5]
   },
 ]
+
 for (let i = 0; i < membri.length; i++) {
-  const studenteCorrente = membri[i]
-  // console.log(studenteCorrente)
-  const member = `${studenteCorrente.nome} ${studenteCorrente.ruolo} ${studenteCorrente.foto}`
-  console.log(member)
+  const currentMember = membri[i];
+  const card = document.createElement('card');
+  const containerDOMElement = document.querySelector('.container')
+  const cardContent = `<div class='col'>${currentMember.foto} ${currentMember.nome} ${currentMember.ruolo}</div>`;
+  console.log(cardContent);
+
+  containerDOMElement.innerHTML += cardContent;
+
 }
