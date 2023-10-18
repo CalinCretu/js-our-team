@@ -1,3 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300;1,700&family=Salsa&display=swap');
+
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Salsa', cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  margin-top: 40px;
+}
+
+p {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  width: 1400px;
+  height: auto;
   background-color: cornflowerblue;
+  padding: 30px;
+}
+
+.col-4 {
+  padding: 30px;
+  background-color: red;
+  border: 2px solid black;
 }

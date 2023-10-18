@@ -4,32 +4,32 @@ const membri = [
   {
     nome: 'Wayne Barnet',
     ruolo: 'Founder & CEO'
-    // foto: 
+    foto: 
   },
   {
     nome: 'Angela Caroll',
     ruolo: 'Chief Editor'
-    // foto: 
+    foto: 
   },
   {
     nome: 'Walter Gordon',
     ruolo: 'Office Manager'
-    // foto: 
+    foto: 
   },
   {
     nome: 'Angela Lopez',
     ruolo: 'Social Media Manager'
-    // foto: 
+    foto: 
   },
   {
     nome: 'Scott Estrada',
     ruolo: 'Developer'
-    // foto: 
+    foto: 
   },
   {
     nome: 'Barbara Ramos',
     ruolo: 'Graphic Designer'
-    // foto: 
+    foto: 
   },
 ]
 for (let i = 0; i < membri.length; i++) {
