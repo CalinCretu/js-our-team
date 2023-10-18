@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300;1,700&family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:ital,wght@0,500;1,300;1,700&family=Salsa&display=swap');
 
 * {
   margin: 0;
@@ -7,6 +8,7 @@
 }
 
 body {
+  background-color: rgb(245, 245, 241);
   font-family: 'Roboto', sans-serif;
   font-family: 'Salsa', cursive;
   display: flex;
@@ -33,18 +35,34 @@ p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
-  width: 1400px;
+  width: 1000px;
   height: auto;
-  background-color: cornflowerblue;
-  padding: 30px;
+  margin-bottom: 50px;
 }
 
 .col {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(255, 255, 255);
+  width: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 30px;
-  background-color: white;
-  border: 2px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.member-foto {
+  max-width: 100%;
+}
+
+.col>div {
+  margin-bottom: 20px;
+}
+
+.member-name {
+  font-size: 20px;
+}
+
+.member-role {
+  font-size: 15px;
 }

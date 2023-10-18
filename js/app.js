@@ -46,7 +46,7 @@ for (let i = 0; i < membri.length; i++) {
   const currentMember = membri[i];
   const card = document.createElement('card');
   const containerDOMElement = document.querySelector('.container')
-  const cardContent = `<div class='col'><div><img class="member-foto" src="${currentMember.foto}" alt="" /></div> <div>${currentMember.nome}</div> <div>${currentMember.ruolo}</div>`;
+  const cardContent = `<div class='col'><div><img class="member-foto" src="${currentMember.foto}" alt="" /></div> <div class ="member-name">${currentMember.nome}</div> <div class ="member-role">${currentMember.ruolo}</div>`;
   console.log(cardContent);
 
   containerDOMElement.innerHTML += cardContent;
